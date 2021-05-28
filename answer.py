@@ -12,6 +12,7 @@ from transformers.pipelines import pipeline
 from flask import Flask
 from flask import request
 from flask import jsonify
+import torch
 import os
 
 #Create Flask App
