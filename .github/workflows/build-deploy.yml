@@ -6,7 +6,7 @@ on:
 name: Build and Deploy a Container
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT }}
-  SERVICE: mgmt590
+  SERVICE: mgmt590restapi
   REGION: us-central1
 
 jobs:
